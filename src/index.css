@@ -14,12 +14,12 @@ html {
   /* background: #000; */
 }
 
-.background {
-  background-image: url("./Assets/bgProject.jpg");
+/* .background {
+  background-image: url("./Assets/BACKGROUND.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+} */
 
 .form-container {
   background-color: rgb(190, 190, 225);

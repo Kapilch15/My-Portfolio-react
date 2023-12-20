@@ -1,6 +1,7 @@
 import React from "react";
 import BG from "../Assets/react.png";
 import MyProjects from "./MyProjects";
+import Background from "../Assets/BACKGROUND.jpg";
 
 const Projects = () => {
   return (
@@ -278,24 +279,27 @@ const Projects = () => {
         {/* bg */}
         <div className="relative bg-cover bg-center h-screen flex items-center">
           {/* Background Image */}
-          <div className="background absolute inset-0 bg-cover bg-center"></div>
+          <div
+            className="background absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${Background})`,
+              backgroundSize: "cover",
+              loading: "lazy",
+            }}
+          ></div>
 
           {/* Overlay */}
           <div className="absolute inset-0 bg-black opacity-50"></div>
 
           {/* Content */}
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="absolute inset-0 flex items-center justify-center mt-12">
             <div className="text-white text-center">
-              <p className="text-white text-xl">Projects</p>
-              <h2 className="text-white text-4xl">My Project</h2>
+              <h2 className="text-white text-4xl italic">My Project</h2>
+              <MyProjects />
             </div>
           </div>
         </div>
       </section>
-
-      <div>
-        <MyProjects />
-      </div>
     </>
   );
 };

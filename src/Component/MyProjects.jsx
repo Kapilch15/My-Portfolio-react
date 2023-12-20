@@ -1,9 +1,9 @@
 import React from "react";
 import weather from "../Assets/weather.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
-import "swiper/css";
 
+import "swiper/css";
+import { FaHandPointDown } from "react-icons/fa6";
 import StudyNotion from "../Assets/studyNt.png";
 import sidWEB from "../Assets/sidWebsite.png";
 
@@ -11,7 +11,7 @@ const MyProjects = () => {
   return (
     <>
       <section>
-        <div className="flex justify-center items-center border-4 border-red-400 drop-shadow-2xl lg:w-[900px] w-11/12 bg-gray-900  mx-auto mt-5 mb-8">
+        <div className="flex justify-center items-center border-4 border-gray-400 shadow-xl shadow-yellow-200 lg:w-[900px] w-11/12 bg-gray-900  mx-auto mt-5 mb-8">
           <Swiper
             spaceBetween={50}
             slidesPerView={1}

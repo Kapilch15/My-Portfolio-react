@@ -3,13 +3,19 @@ import Photo from "../../Assets/HeroImages/myphoto.png";
 import Skill from "./Skill";
 import { GoMail } from "react-icons/go";
 import { VscGithub } from "react-icons/vsc";
-
-import Navbar from "./Navbar";
+import BGIMG from "../../Assets/bg-img2.jpg";
 
 const Header = () => {
   return (
     <>
-      <main className="hover:bg-pink-100">
+      <main
+        className="hover:bg-pink-100"
+        style={{
+          backgroundImage: `url(${BGIMG})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
         <section className="flex items-center justify-center">
           <div className="flex flex-col">
             <div className=" justify-center items-center flex mt-40 mb-2">
@@ -19,13 +25,13 @@ const Header = () => {
                 className="w-[220px] h-[230px] rounded-full"
               />
             </div>
-            <h1 className="text-neutral-25 font-semibold text-3xl  flex justify-center mt-3">
+            <h1 className="text-violet-300 font-semibold text-3xl  flex justify-center mt-3">
               Hi, I'm Kapil 👋🏽
             </h1>
-            <p className="text-white flex text-center justify-center text-4xl font-medium bg-red-400 lg:mx-96  mt-12">
+            <p className="text-white flex text-center justify-center text-4xl font-medium bg-red-400 lg:mx-96 p-2 mt-12">
               Fullstack Developer based in India
             </p>
-            <p className="text-richblack-400 text-2xl hover:text-pink-600 flex items-center justify-center  lg:text-center lg:px-96 px-4 py-6">
+            <p className="text-violet-400 text-2xl hover:text-pink-600 flex items-center justify-center  lg:text-center lg:px-96 px-4 py-6">
               I'm Kapil, a fullstack developer with the goal of advancing my
               career and participating in inspiring projects. Here I present my
               work and my passion for web development. Let's shape digital

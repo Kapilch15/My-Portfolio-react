@@ -2,10 +2,11 @@ import React from "react";
 
 const ContactUsForm = () => {
   return (
-    <section className="flex justify-center items-center bg-slate-700">
-      <div className="mt-36">
+    <section className="flex justify-center items-center bg-slate-700 ">
+      <div className="mt-36 mb-5">
         <p className="text-center text-6xl font-medium mt-5">
-          Feel free to <span className="text-cyan-200">Contact Us.</span>
+          Feel free to{" "}
+          <span className="text-cyan-200 underline">Connect Us.</span>
         </p>
         <form
           action="https://formspree.io/f/xbjnrgod"
