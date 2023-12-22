@@ -1,9 +1,7 @@
 import React from "react";
 import weather from "../Assets/weather.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
-import { FaHandPointDown } from "react-icons/fa6";
 import StudyNotion from "../Assets/studyNt.png";
 import sidWEB from "../Assets/sidWebsite.png";
 

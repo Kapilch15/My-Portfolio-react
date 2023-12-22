@@ -10,7 +10,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { SiMongodb } from "react-icons/si";
 import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 const About = () => {
@@ -90,24 +90,25 @@ const About = () => {
               <h6 className="text-white lg:text-center mt-10">
                 Copyright ©2023 Kapil chaudhary
               </h6>
-              <ul className="flex gap-5  text-3xl">
-                <a
-                  href="https://github.com/kapilch15"
-                  target="_blank"
-                  className="cursor-pointer"
-                >
-                  <IoLogoGithub />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/kapil-chaudhary145"
-                  target="_blank"
-                  className="cursor-pointer"
-                >
-                  <FaLinkedin />
-                </a>
-                <a className="cursor-pointer" target="_blank">
-                  <FaInstagramSquare />
-                </a>
+              <ul class="wrapper">
+                <li class="icon facebook">
+                  <span class="tooltip">GitHub</span>
+                  <span>
+                    <IoLogoGithub />
+                  </span>
+                </li>
+                <li class="icon instagram">
+                  <span class="tooltip">Instagram</span>
+                  <span>
+                    <FaInstagram />
+                  </span>
+                </li>
+                <li class="icon linkedin">
+                  <span class="tooltip">LinkedIn</span>
+                  <span>
+                    <FaLinkedin />
+                  </span>
+                </li>
               </ul>
             </div>
           </div>
