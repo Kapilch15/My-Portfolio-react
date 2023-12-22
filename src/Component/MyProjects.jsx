@@ -9,7 +9,7 @@ const MyProjects = () => {
   return (
     <>
       <section>
-        <div className="flex justify-center items-center border-4 border-gray-400 shadow-xl shadow-yellow-200 lg:w-[900px] w-11/12 bg-gray-900  mx-auto mt-5 mb-8">
+        <div className="flex justify-center items-center border-4 border-gray-400 shadow-xl shadow-yellow-200 lg:w-[800px] w-[370px] bg-gray-900  mx-auto mt-5 mb-8">
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
@@ -19,7 +19,7 @@ const MyProjects = () => {
           >
             <SwiperSlide>
               <div className="flex flex-col">
-                <div className="flex flex-col lg:w-1/3 lg:p-8 p-6">
+                <div className="flex flex-col lg:w-1/3 lg:p-8 p-10">
                   <h1 className="text-3xl text-white">MERN APP</h1>
                   <p className="text-[20px] text-gray-300 mt-5">
                     A MERN app that we built as Project using React, MongoDB,
@@ -29,7 +29,7 @@ const MyProjects = () => {
                   <p className="text-2xl">Technologies</p>
                 </div>
                 {/* tech  */}
-                <div className="flex lg:flex-row flex-col">
+                <div className="flex lg:flex-row flex-col ">
                   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:py-2 py-4 lg:px-8 px-24 lg:translate-x-3 -translate-x-20">
                     <article>
                       <svg

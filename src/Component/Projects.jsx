@@ -8,13 +8,13 @@ const Projects = () => {
     <>
       <div className=" w-11/12  mx-auto">
         <div className="flex flex-col">
-          <p className="text-xl text-gray-600 font-medium mt-28">Skills</p>
-          <h3 className="text-3xl font-bold">My TechStack</h3>
+          <p className="text-xl text-gray-400 font-medium mt-28">Skills</p>
+          <h3 className="text-3xl text-fuchsia-400 font-bold">My TechStack</h3>
         </div>
-        <div className="flex lg:flex-row flex-col gap-12 mt-20">
-          <section className="bg-gray-200 gap-20 lg:p-10 md:p-8 py-8 px-6 lg:w-full drop-shadow-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 max-w-screen-lg mt-5">
+        <div className="flex lg:flex-row flex-col gap-10 mt-20 lg:mr-0 mr-5">
+          <section className="bg-gray-200 gap-20 lg:p-10 md:p-8 py-8 px-6  lg:w-full drop-shadow-2xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 max-w-screen-lg mt-5">
             {/* <p className="mb-3">WEB DEVELOPMENT</p> */}
-            <article className="border-2 border-yellow-400 hover:shadow-yellow-200 shadow-lg hover:scale-90 duration-200  lg:px-6 px-4 lg:py-8 py-4">
+            <article className="border-2 border-yellow-400 hover:shadow-yellow-200 shadow-lg hover:scale-90 duration-200  lg:px-6 -px-4 lg:py-8 py-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -60,7 +60,7 @@ const Projects = () => {
                 ></polyline>
               </svg>
             </article>
-            <article className="border-2 border-orange-400 shadow-lg hover:shadow-orange-200 hover:scale-90 duration-200 lg:px-6 px-4 lg:py-8 py-4">
+            <article className="border-2 border-orange-400 shadow-lg hover:shadow-orange-200 hover:scale-90 duration-200 lg:px-6 -px-4 lg:py-8 py-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -84,7 +84,7 @@ const Projects = () => {
                 ></path>
               </svg>
             </article>
-            <article className="border-2 border-red-400 shadow-lg hover:shadow-red-200 duration-200 hover:scale-90 lg:px-6 px-4 lg:py-8 py-4">
+            <article className="border-2 border-red-400 shadow-lg hover:shadow-red-200 duration-200 hover:scale-90 lg:px-6 -px-4 lg:py-8 py-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -99,9 +99,8 @@ const Projects = () => {
                   d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"
                 ></path>
               </svg>
-              <p>Javascript</p>
             </article>
-            <article className="border-2 border-cyan-400 shadow-lg hover:shadow-cyan-200 hover:scale-90 duration-200 lg:px-6 px-4 lg:py-8 py-4">
+            <article className="border-2 border-cyan-400 shadow-lg hover:shadow-cyan-200 hover:scale-90 duration-200 lg:px-6 -px-4 lg:py-8 py-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -130,7 +129,7 @@ const Projects = () => {
                 </g>
               </svg>
             </article>
-            <article className="border-2 border-pink-400 shadow-lg hover:shadow-pink-200 hover:scale-90 duration-200 lg:px-6 px-4 lg:py-8 py-4">
+            <article className="border-2 border-pink-400 shadow-lg hover:shadow-pink-200 hover:scale-90 duration-200 lg:px-6 -px-4 lg:py-8 py-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -145,7 +144,7 @@ const Projects = () => {
                 ></path>
               </svg>
             </article>
-            <article className="border-2 border-green-400  shadow-lg hover:shadow-green-400  hover:scale-90 duration-200 lg:px-6 px-4 lg:py-8 py-4">
+            <article className="border-2 border-green-400  shadow-lg hover:shadow-green-400  hover:scale-90 duration-200 lg:px-6 -px-4 lg:py-8 py-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -157,7 +156,7 @@ const Projects = () => {
                 <path d="M45,4H5C4.447,4,4,4.448,4,5v40c0,0.552,0.447,1,1,1h40c0.553,0,1-0.448,1-1V5C46,4.448,45.553,4,45,4z M29,26.445h-5V42h-4	V26.445h-5V23h14V26.445z M30.121,41.112v-4.158c0,0,2.271,1.712,4.996,1.712c2.725,0,2.62-1.782,2.62-2.026	c0-2.586-7.721-2.586-7.721-8.315c0-7.791,11.25-4.717,11.25-4.717l-0.14,3.704c0,0-1.887-1.258-4.018-1.258s-2.9,1.013-2.9,2.096	c0,2.795,7.791,2.516,7.791,8.141C42,44.955,30.121,41.112,30.121,41.112z"></path>
               </svg>
             </article>
-            <article className="border-2 border-violet-400 shadow-lg hover:shadow-violet-400 hover:scale-90 duration-200 lg:px-6 px-4 lg:py-8 py-4">
+            <article className="border-2 border-violet-400 shadow-lg hover:shadow-violet-400 hover:scale-90 duration-200 lg:px-6 -px-4 lg:py-8 py-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -182,9 +181,8 @@ const Projects = () => {
                   d="M24,9.604c-5.589,0-9.347,2.439-11.276,7.318c-0.2,0.505,0.417,0.92,0.816,0.551 c2.035-1.882,4.322-2.505,6.86-1.871c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24 c5.589,0,9.348-2.44,11.276-7.319c0.2-0.505-0.417-0.92-0.816-0.551c-2.035,1.882-4.322,2.506-6.86,1.872 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-5.589,0-9.348,2.44-11.276,7.319 c-0.2,0.505,0.417,0.92,0.816,0.551c2.035-1.882,4.322-2.506,6.86-1.871c1.825,0.457,3.13,1.781,4.575,3.246 c2.353,2.388,5.077,5.152,11.025,5.152c5.589,0,9.348-2.44,11.276-7.319c0.2-0.505-0.417-0.92-0.816-0.551 c-2.035,1.882-4.322,2.506-6.86,1.871c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24L12,24z"
                 ></path>
               </svg>
-              <p>Tailwind</p>
             </article>
-            <article className="border-2 border-gray-700 shadow-lg hover:shadow-gray-400 hover:scale-90 duration-200 lg:px-6 px-4 lg:py-8 py-4">
+            <article className="border-2 border-gray-700 shadow-lg hover:shadow-gray-400 hover:scale-90 duration-200 lg:px-6 -px-4 lg:py-8 py-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -215,7 +213,7 @@ const Projects = () => {
                 ></path>
               </svg>
             </article>
-            <article className="border-2 border-pink-700 shadow-lg hover:shadow-pink-400 hover:scale-90 duration-200 lg:px-6 px-4 lg:py-8 py-4">
+            <article className="border-2 border-pink-700 shadow-lg hover:shadow-pink-400 hover:scale-90 duration-200 lg:px-6 -px-4 lg:py-8 py-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -265,41 +263,43 @@ const Projects = () => {
       </div>
       <p className="h-[20rem] w-[20rem] -translate-x-64 md:translate-x-0 lg:translate-x-[310px] mt-2 border-l-0 border-r-0 border-2 p-2 border-b-0 rotate-90 border-orange-400 mb-4"></p>
       {/* Project section */}
-      <section className="bg-black h-auto ">
+      <section className="bg-black h-auto rotate-6 w-10/12 mx-auto">
         <div className="flex flex-col justify-center items-center">
           <div className="mt-5 lg:w-[70rem] text-center flex">
-            <p className="text-green-200  font-bold lg:text-4xl">
+            <p className="text-green-200  font-bold lg:text-4xl decorater">
               "It´s better to wait for a productive programmer to become
               available than it is to wait for the first available programmer to
               become productive."
             </p>
           </div>
         </div>
+      </section>
 
-        {/* bg */}
-        <div className="relative bg-cover bg-center h-screen flex items-center">
-          {/* Background Image */}
-          <div
-            className="background absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url(${Background})`,
-              backgroundSize: "cover",
-              loading: "lazy",
-            }}
-          ></div>
+      {/* bg */}
+      <div className="relative bg-cover bg-center h-screen flex items-center mt-16">
+        {/* Background Image */}
+        <div
+          className="background absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url(${Background})`,
+            backgroundSize: "cover",
+            loading: "lazy",
+          }}
+        ></div>
 
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-black opacity-50"></div>
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black opacity-50"></div>
 
-          {/* Content */}
-          <div className="absolute inset-0 flex items-center justify-center mt-12">
-            <div className="text-white text-center">
-              <h2 className="text-white text-4xl italic">My Project</h2>
-              <MyProjects />
-            </div>
+        {/* Content */}
+        <div className="absolute inset-0 flex items-center justify-center mt-40">
+          <div className="text-white text-center">
+            <h2 className="text-white text-4xl italic">
+              My <span className="underline text-fuchsia-400">Project</span>
+            </h2>
+            <MyProjects />
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

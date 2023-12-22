@@ -11,15 +11,8 @@
 
 body,
 html {
-  /* background: #000; */
+  background: #000;
 }
-
-/* .background {
-  background-image: url("./Assets/BACKGROUND.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-} */
 
 .form-container {
   background-color: rgb(190, 190, 225);
@@ -107,4 +100,9 @@ html {
 .wrapper .linkedin:hover .tooltip::before {
   background-color: #436fa8;
   color: #ffffff;
+}
+
+.decorater:hover {
+  text-shadow: #50cd90 2px 10px 6px;
+  rotate: -3deg;
 }

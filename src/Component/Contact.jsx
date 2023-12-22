@@ -11,7 +11,7 @@ const ContactUsForm = () => {
         <form
           action="https://formspree.io/f/xbjnrgod"
           method="POST"
-          className="form-container flex flex-col lg:p-4 p-7 mt-5 mb-5"
+          className="form-container flex flex-col lg:p-4 p-7 mt-10 mb-5"
         >
           <input
             type="text"
